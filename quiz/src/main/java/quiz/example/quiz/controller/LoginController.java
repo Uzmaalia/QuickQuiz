@@ -4,7 +4,7 @@ package quiz.example.quiz.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import quiz.example.quiz.dto.LoginRequest;
-import quiz.example.quiz.entitity.QuizQuestion;
+import quiz.example.quiz.entitity.Question;
 import quiz.example.quiz.service.QuestionService;
 
 import java.util.List;
@@ -31,12 +31,12 @@ public class LoginController {
         }
     }
     @GetMapping("/questions")
-    public List<QuizQuestion> getQuestions() {
+    public List<Question> getQuestions() {
         return questionService.getAllQuestions();
     }
 
     @PostMapping(value = "/save", consumes = "application/json", produces = "application/json")
-    public QuizQuestion saveQuestion(@RequestBody QuizQuestion question) {
+    public Question saveQuestion(@RequestBody Question question) {
         return questionService.saveQuestion(question);
     }
 
