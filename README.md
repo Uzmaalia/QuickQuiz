@@ -49,11 +49,11 @@ The project features a **Spring Boot backend** that manages quiz data and REST A
 
 ## Architecture  
 
-Frontend (HTML, CSS, JavaScript)
-        ↓ REST API
-Backend (Spring Boot)
-        ↓
-Database (MySQL)
+**Frontend (HTML, CSS, JavaScript)** <br>
+↓ REST API <br>
+**Backend (Spring Boot)** <br>
+↓ <br>
+**Database (MySQL)**
 
 This modular structure ensures scalability, maintainability, and a clean separation of concerns.  
 
