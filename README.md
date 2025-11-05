@@ -67,10 +67,10 @@ git clone https://github.com/Uzmaalia/QuickQuiz.git
 cd QuickQuiz
 ```
 ### 2.Setup Backend
-mvn clean install
+mvn clean install <br>
 mvn spring-boot:run
 
 ### 3.Run Frontend
-Open the index.html file in your browser, or serve it locally using:
+Open the index.html file in your browser, or serve it locally using: <br>
 npx live-server
 
