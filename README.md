@@ -8,7 +8,6 @@
 ![CSS3](https://img.shields.io/badge/CSS3-Styling-blue?style=for-the-badge&logo=css3)
 ![REST API](https://img.shields.io/badge/REST-API-lightgrey?style=for-the-badge&logo=postman)
 ![Maven](https://img.shields.io/badge/Maven-Build-red?style=for-the-badge&logo=apachemaven)
-![Docker](https://img.shields.io/badge/Docker-Containerized-lightblue?style=for-the-badge&logo=docker)
 ![Postman](https://img.shields.io/badge/Postman-Testing-orange?style=for-the-badge&logo=postman)
 
 ---
