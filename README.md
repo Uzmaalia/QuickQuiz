@@ -48,7 +48,7 @@ The project features a **Spring Boot backend** that manages quiz data and REST A
 
 ---
 
-## 🏗️ Architecture  
+## Architecture  
 
 Frontend (HTML, CSS, JavaScript)
 ↓ REST API
